@@ -6,5 +6,5 @@ from Tkinter import *
 root = Tk()
 def closecallback():
     root.destroy()
-Button(root,text="Close",command=closecallback).pack()
+Button(root, text="Close", command=closecallback).pack()
 root.mainloop()
